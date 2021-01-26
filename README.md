@@ -1,2 +1,2 @@
 # jekylify
-jekyll + netlify cms
+Jekyll + Netlify CMS
