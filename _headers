@@ -1,0 +1,14 @@
+---
+layout: null
+---
+{%- assign urls = site.pages | map: 'url' | sort -%}
+{%- for url in urls %}
+{%- if url == '/404' -%}{% continue %}{%- endif -%}
+{{url}}
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: microphone=(), camera=(), geolocation=(self "https://probely.com")
+  Content-Security-Policy: default-src 'self' https: data: wss: blob: 'unsafe-inline'; script-src 'self' https: data: 'unsafe-inline' 'unsafe-eval'; report-uri https://probely.report-uri.com/r/d/csp/enforce
+
+{% endfor %}
