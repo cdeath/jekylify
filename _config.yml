@@ -22,44 +22,35 @@
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
+title: Jekylify
+description: lorem ipsum
+
 # Collections
 collections_dir: collections
 collections:
-  posts:
-    output: true
-    permalink: :year/:month/:day/:title
   pages:
     output: true
     permalink: :slug/
   menus:
     output: false
-  people:
-    output: false
-  organizations:
-    output: false
-  settings:
-    output: false
 
 # Front Matter Defaults
 defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
+  - scope:
+      path: ""
+      type: "pages"
     values:
-      layout: "default"
+      layout: "page"
 
 # Build settings
 markdown: kramdown
 sass:
-    style: compressed
-
-# Plugins
-#plugins:
-#  - jekyll-feed
+  style: compressed
+  sourcemap: never
 
 # Include
 include:
-  - _redirects
+  - _headers
 
 # Exclude
 exclude:

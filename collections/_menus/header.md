@@ -1,6 +1,5 @@
 ---
 items:
-  - page: Team
-  - page: Contacts
+  - page: team
+  - page: contacts
 ---
-

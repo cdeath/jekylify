@@ -1,8 +1,7 @@
 ---
 items:
-  - title: Outras Coisas
-    url: 'https://maiscenas.com'
-  - title: Cenas
-    url: 'https://cenas.com'
+  - title: Moar
+    url: 'https://moar.com'
+  - title: Stuff
+    url: 'https://stuff.com'
 ---
-

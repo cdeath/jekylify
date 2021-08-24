@@ -1,32 +1,11 @@
 ---
 permalink: /
 title: Home
-sections:
-  - name: Hero
-    blocks:
-      - type: markdown
-        markdown: >-
-          ![people working in a data-center](/assets/media/img_cover.svg){:
-          loading="eager" animation-name="fadeInLeft"}
-
-          ![people working in a data-center](/assets/media/img_cover.svg){: loading="eager" animation-name="fadeInLeft"}
-
-
-          # Web application and API vulnerability scanner for **[developers](/web-vulnerability-scanner/developers/), [security teams](/web-vulnerability-scanner/security-teams/), [DevOps](/web-vulnerability-scanner/devops/), [compliance](/web-vulnerability-scanner/compliance/) and [SaaS Businesses](/web-vulnerability-scanner/management/)**{: .typewriter} {#web-application-and-api-vulnerability-scanner}
-
-
-          ## Add a virtual security specialist to your team, find vulnerabilities, and learn how to fix them
-      - type: form
-        title: Newsletter
-  - name: Clients
-    blocks:
-      - type: collection
-        layout: list
-        perPage: 1
-        max: 0
-        collection: organizations
-        filters:
-          - condition: is
-            key: relationships
-            value: client
 ---
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sem dolor, ornare in enim at, convallis pellentesque nisl. Etiam vestibulum vestibulum velit, vitae gravida mi convallis quis. In posuere auctor massa, sit amet tristique eros pharetra in. Integer gravida tortor vel mi commodo, vel gravida mi pharetra. Cras felis lorem, ornare ut dignissim at, viverra pellentesque tortor. Phasellus quis venenatis metus. Nam eu varius sem, in lobortis mauris.
+
+Sed lacus lectus, sagittis at tristique at, laoreet id urna. In id dignissim nulla. Duis efficitur vehicula pulvinar. Praesent eleifend ipsum sit amet molestie gravida. Vivamus aliquam elementum tempor. Donec fringilla nec sem a pulvinar. Ut efficitur dignissim arcu, tincidunt vestibulum odio euismod ut. Morbi at nunc tellus. Nullam sed consequat magna. Ut auctor venenatis mi, eu rhoncus nulla sodales at. Duis et felis nulla. Sed bibendum nulla eu eros mattis vulputate.
+
+Sed scelerisque molestie malesuada. Vestibulum diam elit, lobortis in magna eu, gravida rutrum ex. Sed semper nunc vel orci gravida, commodo dapibus ligula vulputate. Nam rutrum felis nec suscipit porttitor. Nam condimentum et nisl sit amet consectetur. Aenean quis volutpat quam. Vestibulum convallis arcu lectus, ac elementum velit blandit sed. Aenean est urna, molestie sed ligula eget, imperdiet dictum mi. Mauris egestas urna a euismod elementum. Pellentesque in eros quis lectus tincidunt imperdiet congue ut justo. In finibus, neque sed egestas commodo, tortor elit aliquam dolor, scelerisque pulvinar ex erat non tellus. Vivamus urna tortor, sodales ac eros at, consectetur lobortis neque. Pellentesque ex ipsum, interdum nec purus vel, accumsan dapibus tellus. Vestibulum porta lectus metus, sed bibendum nulla congue id. Suspendisse viverra tellus nisi, sed fringilla leo euismod nec.
+
+Phasellus interdum vestibulum tortor eu efficitur. Proin porta diam at nunc dapibus vulputate. Nunc vel ligula quis dolor mollis commodo in ut metus. Cras accumsan non nisi in faucibus. Nunc cursus dapibus porta. Phasellus vitae scelerisque augue. Maecenas tempus vel leo in ullamcorper. Quisque eu ligula cursus, maximus urna in, consectetur metus. Aenean dapibus sapien a erat rutrum, sed bibendum sem suscipit. Morbi facilisis nisi ac ullamcorper placerat. Vivamus accumsan ac tellus quis tempus. Mauris ut elit pretium, egestas diam at, varius est.
