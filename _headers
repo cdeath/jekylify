@@ -10,5 +10,6 @@ layout: null
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: microphone=(), camera=(), geolocation=(self "https://probely.com")
   Content-Security-Policy: default-src 'self' https: data: wss: blob: 'unsafe-inline'; script-src 'self' https: data: 'unsafe-inline' 'unsafe-eval'; report-uri https://probely.report-uri.com/r/d/csp/enforce
+  Link: </assets/fonts/inter/Inter-Roman.var.woff2>; rel=preload; as=font; type="font/woff2"; crossorigin=anonymous
 
 {% endfor %}
